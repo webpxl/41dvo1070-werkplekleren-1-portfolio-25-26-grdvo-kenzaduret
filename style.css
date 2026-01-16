@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +5,7 @@
 }
 
 :root {
-    /* Beige Color Palette */
+
     --beige-100: #F5F1E8;
     --beige-200: #EDE6D6;
     --beige-300: #E3D5BA;
@@ -18,7 +16,7 @@
     --beige-800: #6B5744;
     --beige-900: #4A3F35;
 
-    /* Accent Colors */
+
     --accent-warm: #D4A574;
     --accent-dark: #4A3F35;
     --white: #FFFFFF;
@@ -26,17 +24,16 @@
     --shadow-medium: rgba(75, 63, 53, 0.15);
     --shadow-strong: rgba(75, 63, 53, 0.25);
 
-    /* Spacing */
+
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
     --spacing-lg: 4rem;
     --spacing-xl: 6rem;
 
-    /* Typography */
+
     --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    /* Transitions */
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -47,7 +44,7 @@ html {
 }
 
 body {
-    font-family: var(--font-primary), sans-serif;
+    font-family: var(--font-primary);
     background-color: var(--beige-100);
     color: var(--beige-900);
     line-height: 1.6;
@@ -55,9 +52,7 @@ body {
     position: relative;
 }
 
-/* ===========================
-   BACKGROUND DECORATIONS
-   =========================== */
+
 
 .bg-decoration,
 .bg-decoration-2 {
@@ -99,9 +94,7 @@ body {
     }
 }
 
-/* ===========================
-   NAVIGATION
-   =========================== */
+
 
 .navbar {
     position: fixed;
@@ -186,9 +179,7 @@ body {
     transition: var(--transition);
 }
 
-/* ===========================
-   CONTAINER & SECTIONS
-   =========================== */
+
 
 .container {
     max-width: 1200px;
@@ -223,9 +214,7 @@ section {
     border-radius: 2px;
 }
 
-/* ===========================
-   HERO SECTION
-   =========================== */
+
 
 .hero {
     min-height: 100vh;
@@ -341,9 +330,7 @@ section {
     height: auto;
 }
 
-/* ===========================
-   WHY SECTION
-   =========================== */
+
 
 .why-section {
     background: var(--white);
@@ -436,9 +423,7 @@ section {
     color: var(--beige-900);
 }
 
-/* ===========================
-   PROJECTS SECTION
-   =========================== */
+
 
 .projects-section {
     background: var(--beige-100);
@@ -585,9 +570,7 @@ section {
     font-weight: 600;
 }
 
-/* ===========================
-   SKILLS SECTION
-   =========================== */
+
 
 .skills-section {
     background: var(--white);
@@ -669,9 +652,7 @@ section {
     }
 }
 
-/* ===========================
-   TIMELINE
-   =========================== */
+
 
 .timeline-section {
     margin-top: var(--spacing-xl);
@@ -762,9 +743,7 @@ section {
     font-size: 0.95rem;
 }
 
-/* ===========================
-   CONTACT SECTION
-   =========================== */
+
 
 .contact-section {
     background: var(--beige-100);
@@ -845,9 +824,7 @@ section {
     box-shadow: 0 6px 20px var(--shadow-medium);
 }
 
-/* ===========================
-   FOOTER
-   =========================== */
+
 
 .footer {
     background: var(--beige-900);
@@ -865,9 +842,6 @@ section {
     font-size: 0.9rem;
 }
 
-/* ===========================
-   RESPONSIVE DESIGN
-   =========================== */
 
 @media (max-width: 968px) {
     :root {
@@ -1008,9 +982,7 @@ section {
     }
 }
 
-/* ===========================
-   UTILITY CLASSES
-   =========================== */
+
 
 .text-center {
     text-align: center;
@@ -1028,9 +1000,8 @@ section {
     margin-top: var(--spacing-md);
 }
 
-/* ===========================
-   ANIMATIONS & EFFECTS
-   =========================== */
+
+CSS
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -1064,11 +1035,3 @@ section {
         display: none;
     }
 }
-
-
-
-
-
-
-
-
